@@ -1,7 +1,6 @@
 /*
-loda behenchod dekhle jo bhi code kara hai
+Enter the 
 */
-
 #include <stdio.h>
 
 int main() {

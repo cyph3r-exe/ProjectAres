@@ -1,5 +1,5 @@
 /*
-Enter the 
+Enter the marks for your subject and then calculate the percentage. 
 */
 #include <stdio.h>
 

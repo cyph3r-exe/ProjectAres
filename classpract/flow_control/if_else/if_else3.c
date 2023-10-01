@@ -4,23 +4,23 @@ shorter than usual. If the name is of more than 50 characters
 it is longer than usual.
 */
 
-// #include <stdio.h>
-// #include <string.h>
+#include <stdio.h>
+#include <string.h>
 
-// int main() {
-//     char name[] = "";
+int main() {
+    char name[100];
 
-//     printf("Enter your name: ");
-//     scanf("%c", &name);
+    printf("Enter your name: ");
+    scanf("%s", &name);
 
-//     if (strlen(name) < 3) {
-//         printf("Your name is shorter than usual.");
-//     }
-//     else if (strlen(name) > 50)
-//     {
-//         printf("Your name is longer than usual.");
-//     }
+    if (strlen(name) < 3) {
+        printf("Your name is shorter than usual.");
+    }
+    else if (strlen(name) > 50)
+    {
+        printf("Your name is longer than usual.");
+    }
 
-//     return 0;
+    return 0;
 
-// };
+};
